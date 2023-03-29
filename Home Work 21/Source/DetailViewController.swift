@@ -11,14 +11,12 @@ class DetailViewController: UIViewController {
     
     var items: Result? {
         didSet {
-//            imageView = tableViewCell.iconImage
             titleLabel.text = items?.title
             if items?.description == "" || items?.description == nil {
                 descriptionLabel.text = "This comic has no description"
             } else {
                 descriptionLabel.text = items?.description
             }
-//            imageView.image = UIImage(systemName: "heart")
             getImage()
         }
     }
@@ -34,7 +32,6 @@ class DetailViewController: UIViewController {
         var label = UILabel()
         label.numberOfLines = 1
         label.textAlignment = .center
-
         label.font = .systemFont(ofSize: 30)
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
@@ -43,7 +40,6 @@ class DetailViewController: UIViewController {
     private lazy var descriptionLabel: UILabel = {
         var label = UILabel()
         label.numberOfLines = 15
-        
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
@@ -84,10 +80,8 @@ class DetailViewController: UIViewController {
     }
     
     func getImage() {
-        
         let url = (items?.thumbnail.path ?? "") + "/portrait_uncanny." + (items?.thumbnail.thumbnailExtension.rawValue ?? "")
         let urlHttps = url.makeHttps
-        
         imageView.getImage(stringURL: urlHttps)
     }
 }

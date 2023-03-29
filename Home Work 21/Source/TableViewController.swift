@@ -17,7 +17,6 @@ class TableViewController: UIViewController {
         tableView.dataSource = self
         tableView.delegate = self
         tableView.register(TableViewCell.self, forCellReuseIdentifier: TableViewCell.indentifier)
-        
         tableView.translatesAutoresizingMaskIntoConstraints = false
         return tableView
     }()
@@ -52,7 +51,6 @@ class TableViewController: UIViewController {
             tableView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
         ])
     }
-    
     
     func fetchSerias() {
         
@@ -90,5 +88,4 @@ extension TableViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 120
     }
-    
 }

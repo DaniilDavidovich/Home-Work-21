@@ -24,7 +24,6 @@ class TableViewCell: UITableViewCell {
         }
     }
     
-    
      lazy var iconImage: UIImageView = {
         let image = UIImageView()
         
@@ -36,8 +35,6 @@ class TableViewCell: UITableViewCell {
         let label = UILabel()
         label.numberOfLines = 4
         label.font = .systemFont(ofSize: 14)
-        
-        
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
@@ -46,14 +43,12 @@ class TableViewCell: UITableViewCell {
         let label = UILabel()
         label.numberOfLines = 6
         label.font = .systemFont(ofSize: 12)
-        
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
@@ -78,7 +73,6 @@ class TableViewCell: UITableViewCell {
         contentView.addSubview(titleLabel)
         contentView.addSubview(discriptionLabel)
         contentView.addSubview(iconImage)
-        
     }
     
     //MARK: - Layout
@@ -101,23 +95,9 @@ class TableViewCell: UITableViewCell {
     }
     
     func getImage() {
-        
         let url = (comicsDidSet?.thumbnail.path ?? "") + "/portrait_uncanny." + (comicsDidSet?.thumbnail.thumbnailExtension.rawValue ?? "")
         let urlHttps = url.makeHttps
-        
         iconImage.getImage(stringURL: urlHttps)
-        
-//        let imageURL = URL(string: urlHttps) ?? URL(fileURLWithPath: "")
-//
-//        let urlRequest = URLRequest(url: imageURL, cachePolicy: .returnCacheDataElseLoad, timeoutInterval: 30)
-//
-//        URLSession.shared.dataTask(with: urlRequest) { data, _, _ in
-//            guard let dataImage = data else { return }
-//            DispatchQueue.main.async {
-//                self.iconImage.image = UIImage(data: dataImage) ?? UIImage()
-//
-//            }
-//        }.resume()
     }
     
     override func prepareForReuse() {

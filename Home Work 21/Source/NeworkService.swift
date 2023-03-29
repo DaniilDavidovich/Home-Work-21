@@ -34,6 +34,4 @@ class NetworkServise {
         let url = components.url
         return url
     }
-    
-   
 }
