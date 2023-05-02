@@ -1,6 +1,6 @@
 //
 //  NewworkService.swift
-//  Home Work 21
+//  MarvellRequest
 //
 //  Created by Daniil Davidovich on 14.03.23.
 //
