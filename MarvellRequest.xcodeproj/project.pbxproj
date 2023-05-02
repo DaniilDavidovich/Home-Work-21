@@ -21,7 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A5884D1629D460B700F17F63 /* Home Work 21.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Home Work 21.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5884D1629D460B700F17F63 /* MarvellRequest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarvellRequest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5884D1929D460B700F17F63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5884D1B29D460B700F17F63 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A5884D1D29D460B700F17F63 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
@@ -50,7 +50,7 @@
 		A5884D0D29D460B700F17F63 = {
 			isa = PBXGroup;
 			children = (
-				A5884D1829D460B700F17F63 /* Home Work 21 */,
+				A5884D1829D460B700F17F63 /* MarvellRequest */,
 				A5884D1729D460B700F17F63 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -58,18 +58,18 @@
 		A5884D1729D460B700F17F63 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A5884D1629D460B700F17F63 /* Home Work 21.app */,
+				A5884D1629D460B700F17F63 /* MarvellRequest.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A5884D1829D460B700F17F63 /* Home Work 21 */ = {
+		A5884D1829D460B700F17F63 /* MarvellRequest */ = {
 			isa = PBXGroup;
 			children = (
 				A5884D3B29D463F900F17F63 /* Source */,
 				A5884D3A29D463F000F17F63 /* Resource */,
 			);
-			path = "Home Work 21";
+			path = MarvellRequest;
 			sourceTree = "<group>";
 		};
 		A5884D3A29D463F000F17F63 /* Resource */ = {
@@ -108,9 +108,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A5884D1529D460B700F17F63 /* Home Work 21 */ = {
+		A5884D1529D460B700F17F63 /* MarvellRequest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A5884D2A29D460B800F17F63 /* Build configuration list for PBXNativeTarget "Home Work 21" */;
+			buildConfigurationList = A5884D2A29D460B800F17F63 /* Build configuration list for PBXNativeTarget "MarvellRequest" */;
 			buildPhases = (
 				A5884D1229D460B700F17F63 /* Sources */,
 				A5884D1329D460B700F17F63 /* Frameworks */,
@@ -120,12 +120,12 @@
 			);
 			dependencies = (
 			);
-			name = "Home Work 21";
+			name = MarvellRequest;
 			packageProductDependencies = (
 				A5884D3829D463E600F17F63 /* Alamofire */,
 			);
 			productName = "Home Work 21";
-			productReference = A5884D1629D460B700F17F63 /* Home Work 21.app */;
+			productReference = A5884D1629D460B700F17F63 /* MarvellRequest.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -143,7 +143,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A5884D1129D460B700F17F63 /* Build configuration list for PBXProject "Home Work 21" */;
+			buildConfigurationList = A5884D1129D460B700F17F63 /* Build configuration list for PBXProject "MarvellRequest" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -159,7 +159,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A5884D1529D460B700F17F63 /* Home Work 21 */,
+				A5884D1529D460B700F17F63 /* MarvellRequest */,
 			);
 		};
 /* End PBXProject section */
@@ -329,7 +329,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8PHY3R68LB;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Home Work 21/Resource/Info.plist";
+				INFOPLIST_FILE = MarvellRequest/Resource/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -339,7 +339,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.my.Home-Work-21";
+				PRODUCT_BUNDLE_IDENTIFIER = com.my.MarvellRequest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -356,7 +356,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8PHY3R68LB;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Home Work 21/Resource/Info.plist";
+				INFOPLIST_FILE = MarvellRequest/Resource/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -366,7 +366,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.my.Home-Work-21";
+				PRODUCT_BUNDLE_IDENTIFIER = com.my.MarvellRequest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -377,7 +377,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A5884D1129D460B700F17F63 /* Build configuration list for PBXProject "Home Work 21" */ = {
+		A5884D1129D460B700F17F63 /* Build configuration list for PBXProject "MarvellRequest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A5884D2829D460B800F17F63 /* Debug */,
@@ -386,7 +386,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A5884D2A29D460B800F17F63 /* Build configuration list for PBXNativeTarget "Home Work 21" */ = {
+		A5884D2A29D460B800F17F63 /* Build configuration list for PBXNativeTarget "MarvellRequest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A5884D2B29D460B800F17F63 /* Debug */,
